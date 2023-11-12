@@ -6,7 +6,7 @@
 
 Clone o repositório:
 ```bash
-git clone [https://github.com/seu-usuario/CepSearch-Hub.git](https://github.com/MQSilveira/CepSearch-Hub-Banco-de-Dados-Local-e-API-ViaCEP-Integrados.git)
+git clone https://github.com/MQSilveira/CepSearch-Hub-Banco-de-Dados-Local-e-API-ViaCEP-Integrados.git
 ```
 
 ### Navegue até o diretório do projeto:
