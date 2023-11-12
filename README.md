@@ -24,5 +24,12 @@ docker-compose up -d
 <p>Frontend: http://localhost:3000</p>
 <p>Backend: http://localhost:3001</p>
 
+### Caso prefira acessar as aplicações frontend (ReactJs) e backend (Node.js) individualmente, aqui estão os links:
+- Frontend: [AddressFinderWeb](https://github.com/MQSilveira/AddressFinderWeb)
+- Backend: [NodeDbInserter](https://github.com/MQSilveira/NodeDbInserter)
+
+
 ## Contribuições
 Contribuições são bem-vindas! Abra issues ou pull requests.
+
+
