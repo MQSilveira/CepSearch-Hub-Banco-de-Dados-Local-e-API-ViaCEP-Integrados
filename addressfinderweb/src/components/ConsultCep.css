@@ -1,0 +1,165 @@
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 800px;
+  margin: 0 auto;
+}
+.list-container {
+  margin-top: auto;
+}
+
+.address-list table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.address-list th {
+  cursor: pointer;
+  background-color: #9ac0d4;
+  transition: background-color 0.3s;
+}
+
+.address-list th:hover {  
+  background-color: #67a3c3;
+
+}
+
+.address-list td {
+  text-align: left;
+  border: 1px solid #939292;
+  font-size: 14px;
+  white-space: nowrap;
+  text-align: center;
+}
+
+
+.map-container {
+  flex: 1;
+  padding: 0 10px;
+  max-width: 300px;
+}
+
+.map-container img {
+  max-width: 100%;
+  height: auto;
+  display: flex;
+}
+
+.form-container {
+  flex: 1;
+  padding: 0 10px; 
+}
+
+form {
+  margin-bottom: 20px;
+}
+
+input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+}
+
+.consult {
+  width: 100%;
+  padding: 10px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.consult:hover {
+  background-color: #45a049;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  background-color: #67a3c3;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {  
+  background-color: #54819a;
+
+}
+
+
+div {
+  padding: 10px;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+p {
+  margin: 5px 0;
+  color: #333;
+}
+
+h2 {
+  text-align: center;
+  margin: 0 0 10px;
+  color: #333;
+}
+
+.error-message p {
+  color: #ff0000;
+  text-align: center;
+  padding: 10px;
+  font-weight: 650;
+}
+
+
+
+
+@media screen and (max-width: 600px) {
+  .address-list th,
+  .address-list td {
+    display: none;
+  }
+
+  .address-list th:first-child,
+  .address-list td:first-child,
+  .address-list th:nth-child(2),
+  .address-list td:nth-child(2),
+  .address-list th:nth-child(5),
+  .address-list td:nth-child(5),
+  .address-list th:nth-child(6),
+  .address-list td:nth-child(6) {
+    display: table-cell;
+  }
+
+
+  .container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .map-container {
+    flex: 1;
+    padding: 0 10px;
+    max-width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .map-container img {
+    max-width: 70%;
+    height: auto;
+  }
+
+  .form-container h1 {
+    
+    text-align: center;
+    font-size: 1.5em;
+    flex: 1;
+    max-width: 100%;  
+  }
+}
